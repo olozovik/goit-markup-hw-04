@@ -121,7 +121,8 @@ section {
 }
 
 .contacts-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -132,11 +133,26 @@ section {
   color: currentColor;
 }
 
+.contacts-icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts-icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .menu-link:hover,
 .menu-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* FOOTER */
