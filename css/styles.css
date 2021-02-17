@@ -243,6 +243,8 @@ section {
   width: 44px;
   height: 44px;
 
+  color: var(--white-text-color);
+
   border-radius: 50%;
   background-color: var(--footer-social-trnsp-white);
 }
@@ -250,7 +252,7 @@ section {
 .footer-social-svg {
   width: 20px;
   height: 20px;
-  fill: var(--white-text-color);
+  fill: currentColor;
 }
 
 .footer-social-link:hover,
@@ -467,23 +469,20 @@ section {
   align-items: center;
   width: 44px;
   height: 44px;
+  color: var(--team-svg-color);
   border-radius: 50%;
 }
 
 .team-social-svg {
   width: 20px;
   height: 20px;
-  fill: var(--team-svg-color);
+  fill: currentColor;
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
+  color: var(--team-svg-white-color);
   background-color: var(--accent-color);
-}
-
-.team-social-link:hover .team-social-svg,
-.team-social-link:focus .team-social-svg {
-  fill: var(--team-svg-white-color);
 }
 
 /* Постоянные клиенты */
@@ -520,22 +519,20 @@ section {
   width: 170px;
   height: 90px;
 
+  color: var(--team-svg-color);
+
   border-radius: 4px;
   border: 1px solid var(--team-svg-color);
 }
 
 .clients-svg {
-  fill: var(--team-svg-color);
+  fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:focus {
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
-
-.clients-link:hover .clients-svg,
-.clients-link:focus .clients-svg {
-  fill: var(--accent-color);
 }
 
 /* ПОРТФОЛИО */
