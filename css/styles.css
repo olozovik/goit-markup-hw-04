@@ -315,7 +315,6 @@ section {
 
 .benefits {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -366,6 +365,7 @@ section {
 /* Чем мы занимаемся */
 
 .activities {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -430,9 +430,9 @@ section {
 
 .team-content {
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 32px;
   padding-bottom: 30px;
-  padding-left: 20px;
+  padding-left: 32px;
 
   text-align: center;
 }
@@ -456,11 +456,7 @@ section {
 
 .team-social {
   display: flex;
-  justify-content: center;
-}
-
-.team-social-item:not(:last-child) {
-  margin-right: 10px;
+  justify-content: space-between;
 }
 
 .team-social-link {
