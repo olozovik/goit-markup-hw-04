@@ -14,6 +14,7 @@
   --border-color-works: #eeeeee;
   --team-svg-color: #afb1b8;
   --team-svg-white-color: #ffffff;
+  --footer-social-trnsp-white: rgba(255, 255, 255, 0.1);
 }
 
 h1,
@@ -174,6 +175,15 @@ section {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-main {
+  margin-right: 70px;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -206,6 +216,46 @@ section {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+
+.footer-follow-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: var(--footer-social-trnsp-white);
+}
+
+.footer-social-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-text-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* СТУДИЯ */
