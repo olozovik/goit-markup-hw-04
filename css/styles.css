@@ -203,7 +203,6 @@ section {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  height: 600px;
 
   text-align: center;
 
@@ -215,8 +214,8 @@ section {
     ),
     url(../images/hero.jpg);
   background-repeat: no-repeat;
-  background-position: center, center -150px;
-  background-size: cover, 1600px;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
