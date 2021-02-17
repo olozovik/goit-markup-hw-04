@@ -91,7 +91,7 @@ section {
 .header-logo {
   margin-right: 93px;
   padding-top: 24px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
 }
 
 .header-logo span {
@@ -250,8 +250,6 @@ section {
 }
 
 .footer-social-svg {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -271,6 +269,7 @@ section {
   text-align: center;
 
   background-color: var(--hero-bg-color);
+
   background-image: linear-gradient(
       to right,
       var(--hero-overlay-color),
@@ -330,7 +329,7 @@ section {
   margin-left: 30px;
 }
 
-.benefits-thumb {
+.benefits-cover {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
@@ -340,11 +339,6 @@ section {
 
   border-radius: 4px;
   background-color: var(--secondary-bg-color);
-}
-
-.benefits-svg {
-  width: 70px;
-  height: 70px;
 }
 
 .benefits-item-title {
@@ -470,8 +464,6 @@ section {
 }
 
 .team-social-svg {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
