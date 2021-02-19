@@ -309,6 +309,7 @@ body {
 
 .benefits {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -354,7 +355,6 @@ body {
 /* Чем мы занимаемся */
 
 .activities {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
