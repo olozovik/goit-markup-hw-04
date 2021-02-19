@@ -56,12 +56,12 @@ body {
   padding-right: 15px;
 }
 
-header,
+/* header,
 footer,
 section {
   max-width: 1600px;
   margin: 0 auto;
-}
+} */
 
 /* HEADER */
 
@@ -263,6 +263,8 @@ section {
 /* Hero */
 
 .hero {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
 
